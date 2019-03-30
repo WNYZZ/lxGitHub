@@ -1,0 +1,132 @@
+.pages {
+	FONT-SIZE: 12px;
+	CURSOR: default;
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma, Tahamo;
+	padding: 3px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align:center;
+}
+.pages .count {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .number {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .arrow {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .count {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-WEIGHT: bold; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; BORDER-RIGHT-STYLE: none
+} 
+.pages .number {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-WEIGHT: normal; PADDING-BOTTOM: 1px; PADDING-TOP: 2px
+}
+.pages .number A {
+	FONT-SIZE: 12px
+}
+.pages .number SPAN {
+	FONT-SIZE: 12px
+}
+.pages .number SPAN {
+	MARGIN: 0px 3px; COLOR: #999999
+}
+.pages .number A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.pages .number A:hover {
+	COLOR: #0000ff
+}
+.pages .arrow {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.pages .arrow A {
+	FONT-SIZE: 12px; FONT-FAMILY: Webdings
+}
+.pages .arrow SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: Webdings
+}
+.pages .arrow SPAN {
+	MARGIN: 0px 5px; COLOR: #999999
+}
+.pages .arrow A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.pages .arrow A:hover {
+	COLOR: #0000ff
+}
+.pages SELECT {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Tahoma, Tahamo
+}
+.pages INPUT {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Tahoma, Tahamo
+}
+.pages .input INPUT.ititle {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #cccccc 1px solid; COLOR: #2F5373; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .input INPUT.itext {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #cccccc 1px solid; COLOR: #2F5373; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .input INPUT.icount {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #cccccc 1px solid; COLOR: #2F5373; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.pages .input INPUT.ititle {
+	WIDTH: 70px; BORDER-RIGHT-STYLE: none; TEXT-ALIGN: right
+}
+.pages .input INPUT.itext {
+	WIDTH: 25px; COLOR: #000000; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: right
+}
+.pages .input INPUT.icount {
+	WIDTH: 35px; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left
+}
+.pages .input INPUT.ibutton {
+	BORDER-RIGHT: #2F5373 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #2F5373 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; BORDER-LEFT: #2F5373 1px solid; CURSOR: hand; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-BOTTOM: #2F5373 1px solid; FONT-FAMILY: Tahamo; HEIGHT: 17px; BACKGROUND-COLOR: #999999
+}
+
+
+
+.inputlist {
+	MARGIN: 0px 0px 0px 20px
+}
+.inputlist INPUT {
+	
+}
+.inputlist TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 8px; HEIGHT: 35px; PADDING-TOP: 0px
+}
+.inputlist TD INPUT {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+SELECT {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.inputlist TEXTAREA {
+	MARGIN: 0px 0px 5px
+}
+.inputlist H3 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; MARGIN: 20px 0px 15px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/repairs_bg.gif) repeat-y; COLOR: #000; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.employ {
+	TEXT-INDENT: -2000px; MARGIN: 50px 0px 0px; WIDTH: 286px; DISPLAY: block; BACKGROUND: url(../images/employ.jpg) no-repeat; HEIGHT: 86px; OVERFLOW: hidden
+}
+.login_div {
+	POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 105px; WIDTH: 260px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../images/login_pic.jpg) no-repeat left top; HEIGHT: 200px; TOP: 70px; RIGHT: 70px; PADDING-TOP: 0px
+}
+.login_div B {
+	BORDER-BOTTOM: #ddd 1px dashed; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+UL.links {
+	
+}
+UL.links LI {
+	LIST-STYLE-TYPE: none; MARGIN: 0px 7px 10px; FLOAT: left; LIST-STYLE-IMAGE: none
+}
+UL.links LI A IMG {
+	WIDTH: 154px; HEIGHT: 39px
+}
+.page_info{ width:100%; clear:both; text-align: center; height:30px;  line-height:30px; margin-bottom:20px; font-size:16px; }

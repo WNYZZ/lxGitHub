@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*#------------------------------共用样式 {}*/
+html {
+	overflow-x:hidden;
+	overflow-y:scroll;
+  max-width: 1920px;
+}
+
+
+body{
+	background-repeat: no-repeat;
+	background-position:center top;
+	background-attachment: scroll;
+	font-size: 12px;
+	font-family:"微软雅黑", Tahoma, Georgia, Arial;
+	background-color: #ffffff;
+	margin:0px;
+ }
+
+
+div , ul , li , p {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display: block;
+}
+
+table {
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+}
+
+img { border:0px;}
+a{ color:#000;}
+a:focus {
+    outline:none;
+}
+a:link {
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur())
+}
+a:visited {
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur())
+}
+a:hover {
+	text-decoration: none;
+
+	blr:expression(this.onFocus=this.blur())
+}
+a:active {
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur())
+}
+
+
+.lxclearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.lxclearfloat{zoom:1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+  body,html {
+		max-width: 555px;
+		min-width: 310px;
+		overflow-x: hidden;
+    margin: auto;
+	}
+}
+
+@media all and (min-width: 1921px){
+	body,html {
+		max-width: 1920px;
+		margin: auto;
+    border: 1px solid #000000;
+	}
+}

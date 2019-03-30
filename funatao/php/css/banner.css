@@ -1,0 +1,88 @@
+﻿#focus {
+            width: 1920px;
+            height: 600px;
+            overflow: hidden;
+            position: relative;
+        }
+
+            #focus ul {
+                height: 1920px;
+                position: absolute;
+            }
+
+                #focus ul li {
+                    float: left;
+                    width: 1920px;
+                    height: 600px;
+                    overflow: hidden;
+                    position: relative;
+                    background: #000;
+                }
+
+                    #focus ul li div {
+                        position: absolute;
+                        overflow: hidden;
+                    }
+
+            #focus .btnBg {
+                position: absolute;
+                width: 800px;
+                height: 20px;
+                left: 0;
+                bottom: 0;
+                background: #000;
+                display: none;
+            }
+
+            #focus .btn {
+                position: absolute;
+                width: 200px;
+                height: 10px;
+                padding: 5px 10px;
+                left: 50%;
+                margin-left: -100px;
+                bottom: 0;
+                text-align: center;
+            }
+
+                #focus .btn span {
+                    display: inline-block;
+                    _display: inline;
+                    _zoom: 1;
+                    width: 25px;
+                    height: 10px;
+                    _font-size: 0;
+                    margin-left: 5px;
+                    cursor: pointer;
+                    background: #fff;
+                }
+
+                    #focus .btn span.on {
+                        background: #fff;
+                    }
+
+            #focus .preNext {
+                width: 45px;
+                height: 100px;
+                position: absolute;
+                top: 190px;
+                background: url(images/sprite.png) no-repeat 0 0;
+                cursor: pointer;
+            }
+
+            #focus .pre {
+                left: 50%;
+                margin-left: -500px;
+            }
+
+            #focus .next {
+                right: 50%;
+                margin-right: -500px;
+                background-position: right top;
+            }
+
+        .h11 {
+            float: left;
+            font-size: 12px;
+            padding-left: 6px;
+        }

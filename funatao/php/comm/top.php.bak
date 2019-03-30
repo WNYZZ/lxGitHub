@@ -1,0 +1,82 @@
+<div class="top_bg"></div><a name="text0"></a>
+<div class="a100">
+	<ul class="top">
+    	<a class="logo" href="./"><img src="images/logo.jpg"  width="612" height="93"/></a>
+		 <div class="right">
+         	<ul class="en">CONTACT US</ul>
+         	<ul class="tel">0757-29323799</ul>
+         </div>   
+         
+         <div class="nav">
+			<ul class="nav_ul"><a class="nav_a" href="./">网站首页</a></ul>
+			<ul class="nav_ul"><a class="nav_a" href="about.php?sid=2&cid=16">关于家博</a>
+            	<li class="nav_down">
+					<?php
+                    $sql = "SELECT * FROM `#@__infoclass` WHERE (parentid=2 )  ORDER BY orderid asc ";
+                    $dopage->GetPage($sql,999);
+                    while($row = $dosql->GetArray())
+                    {
+                    
+                    ?>
+                	<a class="down_a" href="about.php?sid=<?php echo $row['parentid']?>&cid=<?php echo $row['id']?>"><?php echo ReStrLen($row['classname'],12); ?></a>
+					<?php }  ?>
+                </li>
+            </ul>
+			<ul class="nav_ul"><a class="nav_a" href="news.php?sid=35">新闻资讯</a>
+            	<li class="nav_down">
+					<?php
+                    $sql = "SELECT * FROM `#@__infoclass` WHERE (parentid=4 )  ORDER BY orderid asc ";
+                    $dopage->GetPage($sql,999);
+                    while($row = $dosql->GetArray())
+                    {
+                    ?>
+                	<a class="down_a" href="news.php?sid=<?php echo $row['id']?>"><?php echo ReStrLen($row['classname'],12); ?></a>
+					<?php }  ?>
+                </li>
+            
+            </ul>
+			<ul class="nav_ul"><a class="nav_a" href="product.php">产品家族</a>
+            	<li class="nav_down">
+					<?php
+                    $sql = "SELECT * FROM `#@__infoclass` WHERE (parentid=5 )  ORDER BY orderid asc ";
+                    $dopage->GetPage($sql,999);
+                    while($row = $dosql->GetArray())
+                    {
+                    ?>
+                	<a class="down_a" href="product.php?cid=<?php echo $row['id']?>"><?php echo ReStrLen($row['classname'],12); ?></a>
+					<?php }  ?>
+                </li>           
+            
+            </ul>
+			<ul class="nav_ul"><a class="nav_a" href="about.php?sid=8&cid=32">招商加盟</a>
+            	<li class="nav_down">
+					<?php
+                    $sql = "SELECT * FROM `#@__infoclass` WHERE (parentid=8 )  ORDER BY orderid asc ";
+                    $dopage->GetPage($sql,999);
+                    while($row = $dosql->GetArray())
+                    {
+                    
+                    ?>
+                	<a class="down_a" href="about.php?sid=<?php echo $row['parentid']?>&cid=<?php echo $row['id']?>"><?php echo ReStrLen($row['classname'],12); ?></a>
+					<?php }  ?>
+                </li>
+            </ul>
+			<ul class="nav_ul"><a class="nav_a" href="message.php">留言反馈</a></ul>
+			<ul class="nav_ul"><a class="nav_a" href="about.php?sid=22&cid=33">销售网络</a></ul>
+			<ul class="nav_ul"><a class="nav_a" href="about.php?sid=9&cid=34">联系我们</a>
+            	<li class="nav_down">
+					<?php
+                    $sql = "SELECT * FROM `#@__infoclass` WHERE (parentid=9 )  ORDER BY orderid asc ";
+                    $dopage->GetPage($sql,999);
+                    while($row = $dosql->GetArray())
+                    {
+                    
+                    ?>
+                	<a class="down_a" href="about.php?sid=<?php echo $row['parentid']?>&cid=<?php echo $row['id']?>"><?php echo ReStrLen($row['classname'],12); ?></a>
+					<?php }  ?>
+                </li>
+            </ul>
+         </div>
+    </ul>
+</div>
+<div class="top_line"></div>

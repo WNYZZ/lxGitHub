@@ -1,0 +1,58 @@
+﻿@charset "utf-8";
+#------------------------------共用样式 {}
+html {
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+body{
+	background-repeat: no-repeat;
+	background-position:center top;
+	background-attachment: scroll;
+	font-size: 12px;
+	font-family:"微软雅黑", Tahoma, Georgia, Arial;
+	background-color: #ffffff;
+	margin:0px;
+ 
+}
+
+
+div , ul , li , p       {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display: block;
+}
+table {
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+}
+
+img { border:0px;}
+a{ color:#000;}
+a:focus {
+    outline:none;
+}
+a:link {
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur())
+}
+a:visited {
+	text-decoration: none;  
+	blr:expression(this.onFocus=this.blur())
+}
+a:hover {
+	text-decoration: none;
+
+	blr:expression(this.onFocus=this.blur())
+}
+a:active {
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur())
+}
+.clear0  { clear:both; width:100%; height:0px; display:block;}
+.clear1  { clear:both; width:100%; height:1px; display:block;}
+.clear150{ clear:both; width:100%; height:150px; display:block;}
+.fleft { float:left;}
+.fright{ float:right;}
